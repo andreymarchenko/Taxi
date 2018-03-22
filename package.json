@@ -1,0 +1,27 @@
+{
+  "name": "taxi",
+  "version": "0.0.1",
+  "description": "Client for taxi application",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --open http://localhost:8080",
+    "build": "webpack --display-error-details --display-modules",
+    "test": "jasmine init && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreymarchenko/Taxi.git"
+  },
+  "author": "$andrewmarchenko (https://github.com/andreymarchenko)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreymarchenko/Taxi/issues"
+  },
+  "homepage": "https://github.com/andreymarchenko/Taxi#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
